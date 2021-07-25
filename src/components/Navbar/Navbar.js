@@ -18,7 +18,7 @@ const Navigation = () => {
             </Nav>
             <Nav>
               <Button variant="success" className="NavBtns">
-                <Nav href="#deets">Signin</Nav>
+                <Nav href="#deets">Signup</Nav>
               </Button>
               <Button variant="outline-success" className="NavBtns">
                 <Nav href="#deets">Signin</Nav>
