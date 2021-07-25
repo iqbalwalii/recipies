@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=Navbar.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+.home {
+  font-family: 'Sriracha', cursive;
+}
+
+.NavBtns {
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .NavBtns {
+    margin-left: .2rem;
+    margin-top: .5rem;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

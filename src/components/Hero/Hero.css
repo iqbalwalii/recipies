@@ -1,0 +1,24 @@
+.carousel {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel > img {
+  display: block;
+  width: 50%;
+}
+
+.HeroBtn {
+  margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .carousel > img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Hero.css.map */
