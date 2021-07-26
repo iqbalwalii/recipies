@@ -1,0 +1,35 @@
+.kard
+    padding: 3rem 2rem 1rem 2rem
+    border-radius: 5%
+    color: #302626
+    background: #EEFBE4
+    background
+    position: relative
+    & .cardTop
+        display: flex
+        justify-content: space-around
+        align-items: center
+        & .cardRight
+            & img
+                width: 200px
+                height: 200px
+                border-radius: 50%
+                position: absolute
+                right: -15%
+                top: 10%
+    & .cardBottom
+        & .stars
+            display: flex
+            justify-content: center
+@media screen and ( max-width:  480px)
+    .kard
+        margin-top: 4rem
+        & .cardTop
+            justify-content: center
+            
+            & .cardRight
+                & img
+                    width: 150px
+                    height: 150px
+                    top: -27%
+                    left: 24%

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,oCAAsC;EAC7D,QAAQ,EAAE,IAAI;EACd,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,IAAI;CAAG;;AAExB,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,MAAM,CAAC;IACH,OAAO,EAAE,IAAI;GAAG",
+    "sources": [
+        "Best.sass"
+    ],
+    "names": [],
+    "file": "Best.css"
+}

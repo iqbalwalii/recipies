@@ -1,0 +1,54 @@
+.kard {
+  padding: 3rem 2rem 1rem 2rem;
+  border-radius: 5%;
+  color: #302626;
+  background: #EEFBE4;
+  position: relative;
+}
+
+.kard .cardTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kard .cardTop .cardRight img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  right: -15%;
+  top: 10%;
+}
+
+.kard .cardBottom .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .kard {
+    margin-top: 4rem;
+  }
+  .kard .cardTop {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .kard .cardTop .cardRight img {
+    width: 150px;
+    height: 150px;
+    top: -27%;
+    left: 24%;
+  }
+}
+/*# sourceMappingURL=Card.css.map */
